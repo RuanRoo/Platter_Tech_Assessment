@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+.scrollbar-hide::-webkit-scrollbar {
+    width: 4px; /* Set the width of the scrollbar track */
+    height: 6px;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar-thumb {
+    background-color: black; /* Color of the scrollbar */
+    border-radius: 10px; /* Make it round */
+    height: 4px;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar-thumb:hover {
+    height: 8px;
+  }
+
+  /* Hide other scrollbar properties */
+  .scrollbar-hide::-webkit-scrollbar-track {
+    background: #DDD6D7;
+  }

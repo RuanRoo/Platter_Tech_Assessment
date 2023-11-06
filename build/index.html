@@ -1,0 +1,1056 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopify Store</title>
+  </head>
+  <body>
+    <div
+      class="mx-20 mx-6 sm:mx-20 mt-4 bg-primary flex items-center h-44 rounded-3xl pl-12 sm:pl-20"
+    >
+      <div
+        class="text-white text-xl sm:text-4xl font-bold font-poppins tracking-tight"
+      >
+        Collection View
+      </div>
+    </div>
+    <div class="mx-20 py-10 sm:flex sm:justify-between sm:items-center">
+      <h2 class="font-sourceSerif text-4xl font-black sm:w-full sm:text-left">Best Sellers</h2>
+      <p class="font-poppins text-sm hidden sm:block">Shop All Best Sellers &#129106;</p>
+    </div>
+    
+    <!-- Card Container (Hidden on Small Screens) -->
+    <div class="overflow-x-scroll scrollbar-hide mx-20 mb-20 xl:hidden hidden" id="cardContainer">
+      <div class="flex gap-4">
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/c-d-x-PDX_a_82obo-unsplash.jpg"
+              data-src="./assets/tamara-bellis-LJqRUWr9V0w-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/tamara-bellis-LJqRUWr9V0w-unsplash.jpg"
+              data-src="./assets/domino-164_6wVEHfI-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div
+              class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center"
+            >
+              SAVE 15%
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Hike Bottle Outside Vibes Forest Green
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/domino-164_6wVEHfI-unsplash.jpg"
+              data-src="./assets/c-d-x-PDX_a_82obo-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Rest in Nature T-Shirt Charcoal
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/chuttersnap-4JHMt29fvj8-unsplash.jpg"
+              data-src="./assets/jakob-owens-BmH09wAkJa8-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div
+              class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center"
+            >
+              SAVE 15%
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes Cap Forest Green
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/eniko-kis-KsLPTsYaqIQ-unsplash.jpg"
+              data-src="./assets/domino-164_6wVEHfI-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Rest in Nature T-Shirt Charcoal
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/jakob-owens-BmH09wAkJa8-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div
+              class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center"
+            >
+              SAVE 15%
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/rachit-tank-2cFZ_FB08UM-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              data-src="./assets/jeffrey-wegrzyn-6-6lO-WAGIE-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center">
+              SAVE 15%
+          </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/jeffrey-wegrzyn-6-6lO-WAGIE-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-10 product-card">
+          <div class="w-80 h-80 relative">
+            <img
+              src="./assets/c-d-x-PDX_a_82obo-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center">
+              SAVE 15%
+          </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Grid View (Visible on Small Screens) -->
+    <div class="block sm:hidden mx-6 mb-6">
+      <div class="grid grid-cols-2 gap-4" id="mobileGrid">
+        <!-- Display the first two cards -->
+        <div class="cursor-pointer pb-10 product-card w-full">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/c-d-x-PDX_a_82obo-unsplash.jpg"
+              data-src="./assets/tamara-bellis-LJqRUWr9V0w-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-10 product-card w-full">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/tamara-bellis-LJqRUWr9V0w-unsplash.jpg"
+              data-src="./assets/domino-164_6wVEHfI-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div
+              class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center"
+            >
+              SAVE 15%
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Hike Bottle Outside Vibes Forest Green
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <!-- Show More Button for Mobile Grid -->
+         <div class="text-center">
+         <button
+         id="showMoreButton"
+         class="bg-dark text-white font-poppins text-base w-72 mx-auto py-3 px-6 rounded-full mt-4"
+       >
+         Show More
+       </button>
+      </div>
+
+      <!-- Dropdown for Additional Product Cards (Initially Hidden) -->
+      <div id="dropdown" class="hidden grid grid-cols-2 justify-between gap-4">
+        <div class="cursor-pointer pb-4 product-card w-full">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/domino-164_6wVEHfI-unsplash.jpg"
+              data-src="./assets/c-d-x-PDX_a_82obo-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Rest in Nature T-Shirt Charcoal
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 product-card w-full">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/chuttersnap-4JHMt29fvj8-unsplash.jpg"
+              data-src="./assets/jakob-owens-BmH09wAkJa8-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div
+              class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center"
+            >
+              SAVE 15%
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes Cap Forest Green
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 w-full product-card">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/eniko-kis-KsLPTsYaqIQ-unsplash.jpg"
+              data-src="./assets/domino-164_6wVEHfI-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Rest in Nature T-Shirt Charcoal
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 w-full product-card">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/jakob-owens-BmH09wAkJa8-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div
+              class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center"
+            >
+              SAVE 15%
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 w-full product-card">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/rachit-tank-2cFZ_FB08UM-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 w-full product-card">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              data-src="./assets/jeffrey-wegrzyn-6-6lO-WAGIE-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center">
+              SAVE 15%
+          </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 w-full product-card">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/jeffrey-wegrzyn-6-6lO-WAGIE-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer pb-4 w-full product-card">
+          <div class="w-full h-40 relative">
+            <img
+              src="./assets/c-d-x-PDX_a_82obo-unsplash.jpg"
+              data-src="./assets/solen-feyissa-b63KHEfOAPM-unsplash.jpg"
+              alt="Product Image"
+              class="object-cover w-full h-full rounded-xl"
+            />
+            <div
+              class="absolute bg-white font-bebasNeue text-xs py-1 px-2 rounded-100 border top-4 left-4"
+            >
+              BEST SELLER
+            </div>
+            <div class="absolute bg-military text-white font-bebasNeue text-xs py-1 px-2 rounded-100 border border-black top-4 right-4 items-center">
+              SAVE 15%
+          </div>
+          </div>
+          <div class="flex flex-col gap-1 pt-4 pl-3 text-dark">
+            <div>
+              <div
+                class="font-bebasNeue text-lg font-normal text-transform: uppercase"
+              >
+                Outside Vibes T-Shirt Sunshine
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="text-black focus:outline-none" data-rating="1">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="2">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="3">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="4">
+                &#9733;
+              </div>
+              <div class="text-black focus:outline-none" data-rating="5">
+                &#9733;
+              </div>
+              <span class="font-poppins text-gray text-xs"
+                >&nbsp; 1234 reviews</span
+              >
+            </div>
+            <div class="">
+              <span class="font-poppins font-medium text-base">$104.95</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Show less button to hide cards -->
+      <button
+        id="showLessButton"
+        class="bg-dark text-white font-poppins text-base w-72 mx-auto py-3 px-6 rounded-full mt-4 hidden"
+      >
+        Show Less
+      </button>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
